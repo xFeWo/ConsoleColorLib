@@ -9,13 +9,6 @@ This Python project defines three classes for easy use of ANSI escape codes to c
 
 This module can be used in any Python project that requires colored and formatted terminal output.
 
-## Installation
-No additional dependencies are required. The module can be directly integrated into a project.
-
-```python
-from color import Foreground, Background, Style
-```
-
 ## Usage
 Here are some examples of usage:
 
@@ -40,6 +33,13 @@ print(Style.UNDERLINE, "Underlined text", Style.RESET_ALL)
 ### Styles
 - `BRIGHT`, `DIM`, `ITALIC`, `UNDERLINE`, `BLINK`, `REVERSE`, `HIDDEN`, `STRIKETHROUGH`
 - `NORMAL`, `RESET_ALL`
+
+## Setup
+No additional dependencies are required. The module can be directly integrated into a project.
+
+```python
+from color import Foreground, Background, Style
+```
 
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and distribute it.
