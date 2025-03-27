@@ -1,13 +1,12 @@
 # ConsoleColorLib
 
 ## Description
-This Python project defines three classes for easy use of ANSI escape codes to customize terminal output colors and styles.
+This Python project defines three classes for easy use of ANSI escape codes to customize terminal output colors and styles. This module can be used in any Python project that requires colored and formatted terminal output.
 
+## Features:
 - **Foreground**: Sets text color.
 - **Background**: Sets background color.
 - **Style**: Enables various text styles such as bold, italic, or underline.
-
-This module can be used in any Python project that requires colored and formatted terminal output.
 
 ## Usage
 Here are some examples of usage:
